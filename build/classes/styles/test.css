@@ -1,0 +1,222 @@
+
+/* 
+    Created on : May 10, 2021, 2:23:29 PM
+    Author     : vktrs
+*/
+
+.root{
+    -fx-background-color: #262626;
+}
+
+.table-view{
+   -fx-background-color: transparent;
+   -fx-table-cell-border-color: transparent;
+}
+
+.table-view .table-row-cell {
+    -fx-cell-size: 35px;
+}
+
+.table-view:focused{
+    -fx-background-color: transparent;
+}
+
+/* Spaltenköpfe (#131313 0%, #424141 100%)
+    Struktur column-header-background -> column-header */
+
+.table-view .column-header-background {
+    -fx-background-color: linear-gradient(#333333 0%, #878787 100%);
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: white;   
+}
+
+#status .table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #BDBDBD;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+.button-save {
+    -fx-background-color: linear-gradient(#007E33 25%, #5cb85c 75%);
+    -fx-text-fill:#FFFFFF;  
+    -fx-border-color:#007E33;
+}
+.button-save:hover {
+    -fx-background-color:#5cb85c;
+}
+
+.button-cancel {
+    -fx-background-color: linear-gradient(#FF8800 25%, #ffbb33 75%);
+    -fx-text-fill:#FFFFFF;
+    -fx-border-color:#FF8800;
+}
+.button-cancel:hover {
+    -fx-background-color:#ffbb33;
+}
+
+.button-delete {
+    -fx-background-color: linear-gradient(#CC0000 25%, #ff4444 75%);
+    -fx-text-fill:#FFFFFF;
+    -fx-border-color:#CC0000;
+}
+.button-delete:hover {
+    -fx-background-color:#ff4444;
+}
+
+.button-archive {
+    -fx-background-color: linear-gradient(#0099CC 25%, #33b5e5 75%);
+    -fx-text-fill:#FFFFFF;
+    -fx-border-color:#0099CC;
+}
+.button-archive:hover {
+    -fx-background-color:#33b5e5;
+}
+.button-archive:pressed {
+    -fx-border-color:#0099CC;
+}
+
+#rooms .table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #616161;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+#rooms .table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, #424242;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */  
+}
+
+#rooms .table-row-cell:selected {
+    -fx-background-color: #039BE5;/*0096c9  005797*/
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+    -fx-table-cell-border-color: transparent;
+}
+
+#rooms .table-row-cell:hover {
+    -fx-background-color: #0084B4;/*0096c9  005797*/
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+    -fx-text-fill: #333333;
+}
+
+#rooms .table-row-cell:empty {
+    -fx-background-color: #CCCCCC;
+}
+
+
+.table-view > .virtual-flow > .scroll-bar:vertical,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track-background, 
+.table-view > .virtual-flow > .scroll-bar:horizontal,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track-background {
+    -fx-background-color: transparent;
+}
+
+
+
+.table-view > .virtual-flow > .scroll-bar > .increment-button, 
+.table-view > .virtual-flow > .scroll-bar > .decrement-button {
+    -fx-opacity: 0;
+}
+
+
+
+/* BOOKS */
+
+
+/* Spaltenköpfe (#131313 0%, #424141 100%)
+    Struktur column-header-background -> column-header */
+
+
+
+#books  .table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #039BE5;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+#books  .table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, #0288D1;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */  
+}
+
+#books  .table-row-cell:selected {
+    -fx-background-color: #424242;/*0096c9  0099c6 0066c9 0069c6*/
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+    -fx-table-cell-border-color: transparent;
+}
+#books .table-row-cell:hover {
+    -fx-background-color: #616161;/*0096c9  005797*/
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+    -fx-table-cell-border-color: transparent;  
+    -fx-text-fill: #333333;
+}
+#books  .table-row-cell:empty {
+    -fx-background-color: #CCCCCC;
+}
+
+
+
+#agency .table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #778899;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+#agency .table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, #92A0AD;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */  
+}
+
+#agency .table-row-cell:selected {
+    -fx-background-color: #4C5762;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+    -fx-table-cell-border-color: transparent;
+}
+
+#agency .table-row-cell:hover {
+    -fx-background-color: #4C5762;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+    -fx-text-fill: #333333;
+}
+
+#agency .table-row-cell:empty {
+    -fx-background-color: #CCCCCC;
+}
+
+
+#rooms_nomouse .table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #616161;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+#rooms_nomouse .table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, #424242;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */  
+}
+
+#rooms_nomouse .table-row-cell:empty {
+    -fx-background-color: #CCCCCC;
+}
