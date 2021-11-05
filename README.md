@@ -3,7 +3,7 @@ reference - part of project
 
 Client excludes: AutoReload, ChartStage, Client, Client_log, LoginStage, DBConnect, Message
 
-Server excludes: Server, Server_log, DBdriver, Message
+Server excludes: Server, Server_log, DBDriver, Message
 
 Login is through the socket and the ChartStage takes data directly from database.
 The socket solution is safe.
